@@ -10,7 +10,7 @@ An **unofficial fan-made** Grand Theft Auto-inspired PTF theme for the Sony PSP,
 
 ## Design and content
 
-Original AI-generated urban illustration with dark navigational space, a warm city skyline, police lights and cars. The accompanying original vector system uses black outlines, white, green and gold, with a stacked GTA-style title treatment for Game, a radio for Music, a map radar for Network and wanted-star details throughout. The package has eight category slots, 29 first-level icons with focus assets, two second-level icons with focus assets, wallpaper, and two theme-selection images. Firmware-specific or unsupported XMB elements may use system icons; no fonts, layouts, sounds or system files are replaced. These graphics are fan interpretations, not official game assets.
+Original AI-generated 3D-style urban artwork with dark navigational space, a warm city skyline, police lights and cars. The latest design uses AI-generated, 3D-rendered icon artwork in a black, chrome, green and gold palette. A wanted star, radio, city radar, car garage and other objects reference the GTA-inspired direction. Some related menu slots share imagery. The package has eight category slots, 29 first-level icons with focus assets, two second-level icons with focus assets, wallpaper, and two theme-selection images. Firmware-specific or unsupported XMB elements may use system icons; no fonts, layouts, sounds or system files are replaced. These graphics are fan interpretations, not official game assets.
 
 ## Install
 
@@ -23,7 +23,7 @@ Original AI-generated urban illustration with dark navigational space, a warm ci
 
 PTF themes are intended for official PSP firmware with custom-theme support; target models are PSP-1000, 2000, 3000, PSP Go (N1000) and Street E1000. The build identifies firmware 6.20; compatibility with any specific firmware and model is **not device-verified**. No PSP or genuine XMB environment was available for installation, navigation, capture, or Go-specific testing. See the compatibility report before use.
 
-The 475,048-byte PTF was built using PTF Studio's encoder and independently parsed. All 73 image resources were decoded and their dimensions checked, including indexed GIM and 480×272 24-bit BMP. This is structural validation, not proof of successful device installation. SHA-256: `db8eeaed4253151959f8553b7ff8fc7261edef447613ed253d73120d9170a238`.
+The 517,848-byte PTF was built using PTF Studio's encoder and independently parsed. All 73 image resources were decoded and their dimensions checked, including indexed GIM and 480×272 24-bit BMP. This is structural validation, not proof of successful device installation. SHA-256: `f12cdc8b2b493ab2046caf8986d6e7a0f14438e3636d9f4c6d24d72941b6c14a`.
 
 ## Rebuild
 
@@ -37,7 +37,7 @@ node tools/build_ptf.cjs
 python3 tools/verify_ptf.py release/GTA_PSP_Theme.ptf
 ```
 
-The builder extracts functions from the specified PTF Studio checkout at build time; it is not bundled. `tools/prepare_assets.py` regenerates focus and preview resources; `tools/make_previews.py` generates simulated compositions. `artwork/icons/` contains editable SVG masters; `artwork/wallpaper/` contains the flattened high-resolution AI master, not a layered original. See [credits](docs/ASSET_CREDITS.md). Root PTF and release copy are identical. Artwork and scripts are organized in `artwork/`, `assets/`, `tools/`, `previews/`, `docs/` and `release/`.
+The builder extracts functions from the specified PTF Studio checkout at build time; it is not bundled. `tools/prepare_assets.py` regenerates focus and preview resources; `tools/make_previews.py` generates simulated compositions. `artwork/3d/` contains flattened AI-generated high-resolution atlas and wallpaper masters for the current theme; `artwork/icons/` contains the earlier vector design, not the current artwork. To regenerate device images, run `python3 tools/export_3d_assets.py` then `python3 tools/prepare_assets.py`. The generated masters are not editable 3D models or layered files. See [credits](docs/ASSET_CREDITS.md). Root PTF and release copy are identical. Artwork and scripts are organized in `artwork/`, `assets/`, `tools/`, `previews/`, `docs/` and `release/`.
 
 ## Limitations
 
