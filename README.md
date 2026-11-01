@@ -10,7 +10,7 @@ An **unofficial fan-made** Grand Theft Auto-inspired PTF theme for the Sony PSP,
 
 ## Design and content
 
-Original AI-generated urban illustration with dark navigational space, a warm city skyline, police lights and cars. The accompanying original vector system uses black outlines, white, green and gold, with a wanted-star game icon and radio-inspired music icon. The package has eight category slots, 29 first-level icons with focus assets, two second-level icons with focus assets, wallpaper, and two theme-selection images. Firmware-specific or unsupported XMB elements may use system icons; no fonts, layouts, sounds or system files are replaced. These graphics are fan interpretations, not official game assets.
+Original AI-generated urban illustration with dark navigational space, a warm city skyline, police lights and cars. The accompanying original vector system uses black outlines, white, green and gold, with a stacked GTA-style title treatment for Game, a radio for Music, a map radar for Network and wanted-star details throughout. The package has eight category slots, 29 first-level icons with focus assets, two second-level icons with focus assets, wallpaper, and two theme-selection images. Firmware-specific or unsupported XMB elements may use system icons; no fonts, layouts, sounds or system files are replaced. These graphics are fan interpretations, not official game assets.
 
 ## Install
 
@@ -23,7 +23,7 @@ Original AI-generated urban illustration with dark navigational space, a warm ci
 
 PTF themes are intended for official PSP firmware with custom-theme support; target models are PSP-1000, 2000, 3000, PSP Go (N1000) and Street E1000. The build identifies firmware 6.20; compatibility with any specific firmware and model is **not device-verified**. No PSP or genuine XMB environment was available for installation, navigation, capture, or Go-specific testing. See the compatibility report before use.
 
-The 437,424-byte PTF was built using PTF Studio's encoder and independently parsed. All 73 image resources were decoded and their dimensions checked, including indexed GIM and 480×272 24-bit BMP. This is structural validation, not proof of successful device installation. SHA-256: `cb132d30e851d8396ce6eb6d6cd3bee84713deddea4ccf489668951f5def1bca`.
+The 475,048-byte PTF was built using PTF Studio's encoder and independently parsed. All 73 image resources were decoded and their dimensions checked, including indexed GIM and 480×272 24-bit BMP. This is structural validation, not proof of successful device installation. SHA-256: `db8eeaed4253151959f8553b7ff8fc7261edef447613ed253d73120d9170a238`.
 
 ## Rebuild
 
