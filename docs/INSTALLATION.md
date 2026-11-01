@@ -1,0 +1,3 @@
+# Installation
+
+Download `GTA_PSP_Theme.ptf`. Connect a PSP over USB and choose USB Connection or connect its removable storage to your computer. PSP Go users must select the active internal storage or Memory Stick Micro; other PSP models use Memory Stick. From the root of that storage, create `PSP/THEME/` if missing and copy the PTF into that folder. Eject the storage safely, disconnect USB, then on the PSP open Settings → Theme Settings → Theme, choose the theme, and apply it. No plugin, CFW or system-file modification is required for native PTF in principle. This particular file has not been tested on a physical PSP. If not listed, check the path, chosen storage and firmware custom-theme support; remove the file if you experience trouble.
